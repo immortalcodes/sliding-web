@@ -74,6 +74,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+a{
+text-decoration: none;
+}
 
 /* Page */
 
@@ -3699,4 +3702,45 @@ input, select, textarea {
 		 #cf23cf, #eedd44);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
+}
+.emoji{
+	    font-size: 4rem;
+		animation-name: wave-animation;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;
+		transform-origin: 70% 70%;
+		display: inline-block;
+	  
+}
+
+@keyframes wave-animation {
+	0% {
+	  transform: rotate(0deg);
+	}
+	15% {
+	  transform: rotate(14deg);
+	}
+	30% {
+	  transform: rotate(-8deg);
+	}
+	40% {
+	  transform: rotate(14deg);
+	}
+	50% {
+	  transform: rotate(-4deg);
+	}
+	60% {
+	  transform: rotate(10deg);
+	}
+	70% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(0deg);
+	}
+  }
+
+.icons {
+	font-size: 4rem;
+	padding: 3rem;
 }
