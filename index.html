@@ -162,6 +162,25 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+				apiKey: "AIzaSyCpGlL9llkEz0xEA8xIFWZCbSgvrbHvjsI",
+				authDomain: "madhur-qr.firebaseapp.com",
+				projectId: "madhur-qr",
+				storageBucket: "madhur-qr.appspot.com",
+				messagingSenderId: "516324780164",
+				appId: "1:516324780164:web:80dcc48dd85f48e857fad1"
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+		</script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
